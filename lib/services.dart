@@ -11,8 +11,6 @@ class Services{
   static String url =  "http://134.122.109.152:8088/getRepresentativeList/C_00051";
   static String token = "eyJhbGciOiJIUzUxMiJ9.eyJST0xFIjpbeyJhdXRob3JpdHkiOiJST0xFX0NVU1RPTUVSIn1dLCJzdWIiOiJ5YWduZXNoLnJhbmEiLCJ1c2VyTmFtZSI6InlhZ25lc2gucmFuYSIsImV4cCI6MTY4MDUzMTg2NywiaWF0IjoxNjgwNTEzODY3fQ.h-_dA4VAOeRPgtAoDDLRNLVOUtdiC1sgLNx8xyJQmOIdlDQ8BobYpGsZqYrqR_r1jlIcm2ggCxEmfx_6wQKUyQ";
 
-
-
   static Future<Representative> getData()async{
 
     try{
